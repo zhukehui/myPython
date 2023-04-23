@@ -1,0 +1,1350 @@
+时间：2023-04-06 17:59:19,962 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 17:59:19,963 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 17:59:19,963 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "Fzpr3sXxlHrc5pj0xe7pXhR+Fbfo7UXGqvg3WnBeWlv+h9vlig83ncGNCJVsHrSbPOqkI95fjwAYksNVxB2ahXhUNLMdqghyTQPJX0LAITLG0tw3gc1SJX0oBJR2K2KyVNvvxS5f4oa9kWwvZjfhJBUFC0b0eMEcVo7AFKQaAUmmek0+4ZawRJViC3YCZCXpL6Xzd+PA/AW7cmHEmcEMT9xL67NRIQaRSCQaRle0UP8kOqkGzfhqQN40wAWZwkIf2k9i7pQMoc2IaH5YvT8JM+ULpjh7C8/xpY9xx3xsNF+oaCQELkTRdV1jDdkeqrVyC+H57ACGszedAtRlmBEH5Q==", "password": "aKkAxwchIcBqSQWEOIu/Peh7s+x1G7mwii+/OAfyWoQ3K2sKruKQRACVMwPTFdnwkCnt7i0mZKUA1q++iLrNGe2iQ+UkLadWiVr+yTkJ6EVtsBNZcaKYpdVvj8unf1aMbxjhdspiOBBzdOl4Yq39VWSBlxiZGCFk+H0zmu/NsumHPD6XfYANLivntbYDJ0cm+gXEoqT7dxa2UF2YJWS/z8SjZA2QQo2IcQe/upS2CW0nZ3LcC/1PcwtTUJtyf0LaX+oeeLYUSf2XyVZAnyB8N7DLK5SNQW5EPjNpXTM4Q8q2RK+QlI4JyF1bzaumO+16c2rWNXhnJZ5aw62Cmxnm9A==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 17:59:19,971 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:56 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:19,971 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZmM5ZDJmZGFhMDgyMWNhYzE1NTkzNDExMGViOWRmZjE4MjJjM2RlYzVkMDBiNmVjOWM1Y2I5MDM1YTFiODFjYS0wOTg2MzE1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:19,972 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-002] 当前节点=[发起人上级领导] 当前审批人=[zhen.zuo] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 17:59:20,340 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 17:59:20,341 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZmM5ZDJmZGFhMDgyMWNhYzE1NTkzNDExMGViOWRmZjE4MjJjM2RlYzVkMDBiNmVjOWM1Y2I5MDM1YTFiODFjYS0wOTg2MzE1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 17:59:20,341 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-002", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 17:59:20,342 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:57 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:20,343 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:20,564 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 17:59:20,566 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 17:59:20,567 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "XawV443DpjqT2GdBxkKFt00ISLcer8JNgwL/kDufcBdfyVqG6/YhwEppaWL75l3wq2BR7Hzgd2FXX+1PuDjtX2CQmE5AjLua+Ywn2PiXMwrqt59mocBAIgsHgqt3G8oAP9RSbstCB1gmHek4reUOgT+HJvcMz4bG1qIEUyo1mUIH3bRWon547XB8yItQpc6oFZrH3oN6LxDqtDsJehVabrJWR+2ueaqRD6wxifRFnfb6RBmO5onIrm7g2U17iJefxXbpHLkqxbAyQeJIw8X5Zmwa5uEXMBpVPvAl4wtME9IZIcxoTFRsT5ua18hUmIAFH1wQ7FjSBPxYW0P7LqBs/g==", "password": "OQ+7I3S6prFbU1+ciVDh3jHLYJZLxxDziImKigjJhzw0tCJLw59zMRJ/mIJiwe0ryjdMR2FP5ij6zmLIytOpyhiXsrO4yQEJa1nqYQQz5OXjZNuBV4fDih/JyBsz8kdF8ypUHt7kcg9eA1QJTdChpUdfhmVRpL5DBj4O6j3TK2x25t2wIJj7q+v0OgPlRR8Aa4o5OLOvYfmTAwuZFDMPZ6AcxJwJVDlICzBVrwvDXJesPeSbMHWgfC7JlSTIcxU5JFSsf/mb45fr8GjtSG0L/SEr3VAM6/FvSoBcfiJw/vpWCVp6TiES/nMVTI5kQKOCXLCWB/HfHlHaDPzwI7Zb2w==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 17:59:20,568 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:57 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:20,569 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"Nzc4ZjA3YmU3MmZkYTkxYWNiNWQwZGM5Mzc1YmUzMTMwZmM2ZDZlNmEyMWY5ODg4Yjk3ZGQ3NjFmMWNhOThhNC0zOTQ3MzE1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:20,570 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-002] 当前节点=[发起人部门负责人] 当前审批人=[hua.pei] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 17:59:20,740 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 17:59:20,741 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:Nzc4ZjA3YmU3MmZkYTkxYWNiNWQwZGM5Mzc1YmUzMTMwZmM2ZDZlNmEyMWY5ODg4Yjk3ZGQ3NjFmMWNhOThhNC0zOTQ3MzE1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 17:59:20,741 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-002", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 17:59:20,741 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:57 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:20,742 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:21,578 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 17:59:21,580 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 17:59:21,581 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "NXQaOaZ8Lk6vZLE0hVWdmRDdVBgXI08N9J2y/2DTnrE/MKrJlyqB/WyXzRyjgEE0ulKkw9YQ+wePqjSSdMNMjGizgmwb5QpGUjp1+0QBhlFJk/q3B6VFj1uXIAHpNji1oA8FS+wxwjEkMXG4d0JeZvBN1+qfYs7HWdp0bMEHmmgWWDBry7kZRMC84+eTNLlSnaKGqHUOmSqGuJqsLUZK/vKpqYy0WcTzUWMVr3X6CykPRUZLU6wGPgTuP8h6Hcvvx0lXqoRO2NVzW/TDAH7sqSa2jbOZW6/V2Uoqj8ndIDMmt6wTBdb5ZuXcnOgAt2AIu/cD0YgRVfF+TQDCTNgu+A==", "password": "aLBNiogHgjIqOO8UlvfExETjPWqgOXXElejbB059Y5RHWfneQo8bSB41ualPhsJap0Ccqrk7WjPQ2VX4Yy8HfsHhU/OjTe+v0Z+8cxFjk/jdxIXV3wVtj3Skwcqqoaxg8pLWb4mkJnaFuL5i6JE2GNXhYfe7xOrq7Wmq/magvEJpJNGoaBk+nzYJOPZczGHHDp0jEzq9K1dwFnuy/u3Iz/bZJcI1LHbYgfOYmr/jCgP9v5hGuKDC7ZdUs4tY9OUnPpCEnhvO5WJe71czl30VK9URELUQZ+8r3EA9tLXtx1t0Lofe2OxUcAEdMLJRXNipaag0EiKhAzWl5eHQuADjQw==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 17:59:21,583 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:58 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:21,584 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"Y2Y1ZTNmMDIxOTBiMjMwNjUxNmQ5MGZiMTk4MTI4NGY3ZDc4ZGZjZDliM2I5MGNiNjdkNTNlZjRlMGNjZTAxMy01MDU4MzE1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:21,586 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-002] 当前节点=[产品子类负责人] 当前审批人=[chunli.zhang] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 17:59:21,846 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 17:59:21,848 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:Y2Y1ZTNmMDIxOTBiMjMwNjUxNmQ5MGZiMTk4MTI4NGY3ZDc4ZGZjZDliM2I5MGNiNjdkNTNlZjRlMGNjZTAxMy01MDU4MzE1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 17:59:21,850 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-002", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 17:59:21,852 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:58 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:21,853 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:22,119 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 17:59:22,119 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 17:59:22,120 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "Hfr/ySPFjxxBvrA1p+p1Fz1L7DGy8W4M7diRUXSJbdwU7w05cMWq+ij0E42Czb8m5sSYIV3fliwQ+ZRkQV96DCKxwxeHtk0ReRXXmOWLoEnwfhV3/1z4ObzU8X3PuKfWfwilWgcUk20pZ5QqCjXBW+lh4aMhwpXhKodhnrHQTjbNe5OOR1zXpY9Lfc+ivyLUUhOUAXLC80/GkQwH/UYxDWFc1u2FonA+5qcISSJNj8dxC1so1uSBCdf8CATMH0T/3pEN5Nmu3DN9HTWbQHrix7jvg2o6F8q+zF7gbmHWrupspKDIhfdKW6Uf2FPE4y8M2h4VNR/v/YlKYbKbyhPonA==", "password": "kAEqFkmQFyerv/xmYxBHJ/q8L13Ggc0jb4Qt7ffJ6EKA4RJc46+k49U8XFoDbdMahgy4xSVQb5ETHGtI0dE18P8U94H87+ZJlHcI5GSX9I1sZSdi/6ugqIAP1heNPgiK/EgnNr2sBHtEy/2zH8yHEsoF9QYtxqx6pHV39FLDNiqn65BIpG1X7h558mysv1ydOsSCHNOmc3GWMggcIT4YX5Rr1fKzn252b6e/f2vpGrvpQigFQ/s1XT2gO7cfW4WeTRh0FvoUvwjfJ7bB81tdAkzOr9rNRo+6/nSjyqvLFKigNae50gIjHZhw43JAWWIMCSdYZuaIydwZQXtA/dzLtw==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 17:59:22,120 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:59 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:22,120 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZGFhNTA4MWNiNDM1NTU4YjJhNGJlN2I5NWMwMmIyY2UyODg5OTBjY2QwOWQ4NTEyYmM4ZjRhODkzNjU0ZThjYS0wNTA5MzE1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 17:59:22,120 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-002] 当前节点=[产品组] 当前审批人=[zhouying.shi] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 17:59:22,447 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 17:59:22,448 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZGFhNTA4MWNiNDM1NTU4YjJhNGJlN2I5NWMwMmIyY2UyODg5OTBjY2QwOWQ4NTEyYmM4ZjRhODkzNjU0ZThjYS0wNTA5MzE1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 17:59:22,449 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-002", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 17:59:22,450 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 09:58:59 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 17:59:22,451 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:01,723 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:01:01,725 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:01:01,727 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "FGYilKIUW16+HagTvJG5GZ6svYTKj1msVhTFaeNrSMtoPGSW5GlvMznCjHuCxq+beIOO8t3Kz1nRrcEmZtRFsxViCEjstotC+1UIYEzD4ZGcBK/w1MD1RrjBu6upmrOrpYVh5FCwWjsARQFQk9FEJD/jrVUtRz/JP9RVCJrWur8UYAlrv+ds/o2fEqTgz+2w7N5RGe38Xx+3jFooOszL4qk+UDlbmTfalZ1ihCf0fI9XLlZlDHnNhcWBDdV4CKlM+d+spslroFKRruEaS6qEYTLMWu0eCU2SNo7ThpAtxU3Kf/rNX8OoRKpevtGDq3T/IaZ7YYTciRHMRi2Vsr1kvg==", "password": "NMJJBo9sYWJZuTeD/k7nc1PgBxkxZdP/Mgf8yfXEhIEUCT9e3nhoW/tMtR3oQ0gOq9C2BH5d2CObpE5c0qji8/yiOX1N43nz8cVqluhhmJ5VSsZnwcUn+gO6i3kLpNhxLH9dd8fZ8hhnIUgPKZilq97LklX5k0IPcSPbtmHuQ6pd0Ydhicblp1OvC9QUPIUnfH6z6VXWPBJtDX3JEf8D0NEXEPWbx/u32f8GVPBeHFXBkWg3vd7yHEYfSYX8gCY68vtwnqBwWiCXeyYsupNJiGrdOBr6uahKL9pGTpNyZDNY966JedZvnciPE2CZTEeDUsEH5qzbjN6zLFomc9pIDw==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:01:01,729 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:38 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:01,730 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ODBmNjZjOTBjMDI4ZTk5OGZiYWJiMWRjNGI5ZWQ1MzVhMWU3OWI0ZmZjNTdmZmY1MzRmNDVlMzU0MWI1YjlkNi0yNDY4MzI1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:01,732 - 日志等级: Thread-9 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-003] 当前节点=[发起人上级领导] 当前审批人=[zhen.zuo] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:01:02,559 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:01:02,560 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ODBmNjZjOTBjMDI4ZTk5OGZiYWJiMWRjNGI5ZWQ1MzVhMWU3OWI0ZmZjNTdmZmY1MzRmNDVlMzU0MWI1YjlkNi0yNDY4MzI1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:01:02,560 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:01:02,561 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:39 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:02,562 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:02,798 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:01:02,799 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:01:02,799 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "LcKR555TwppdAkcNVJg9eQ0ahoDJN1tseQEnM8iFO3eAd5qYupkODM4K/tMSQ/YL0sgaM390+4ARCogQJOhrdIyxRGNijimaLi41fGDUDhizxP1xni4mSVVLqY8pYLPQ7nsqDNlyufGIndjrgKqSYSr9dJxzyE25qkEPVtSMWQB3DQc/yDV15Pfd0c/ShlLauF6w7UWv1kQEigTEARiEkfm1rxVNcxwjdX8xnto6FO6ks9lu+ccRu29SMrJgSg1M3PrfQ0Ml2rDLfuVBiLCQ1IU4uPSeYaHNr+x6kNSx+gnLqfpGMf+ZYjpcTYaFVIxkZPtXn4YIr1iGjXEWHZgtcQ==", "password": "Gz3Wpme8rv3dkMImjCJ20qPUKiwSDzQQFRhPeBzdWntCkBz1zOBLWN1dJfIlSL9XWLVrvOv0CvQMo+ZAnB0KuegZ2hmHCkTCgT6+FySvedLyEQejLHE5rtzo96pNz1Hw2823w2LeDR6x4TQfaWojgIH4h3d+VMomB6Yv8uKuSV2S9P5O28P2zDYEvj1KXWRPh6t9RtMELW16cWyT5k743y2MCQA0iG5JnZGz5u4Mh2OTWNQTEcYyhjHXBr1zhNkINV2jhtl/A9ykLKE/pP1Erk4sgKob7jaR86rAl1smHrByNBI7CWnje4xCiSaz24g4iWFTegula2Blk8oMvcHaEQ==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:01:02,799 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:39 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:02,800 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"Y2FkNmE1ZDhmY2I1OGQyODYwZDM1ZDAyODliY2U4MjM0MjI4NDk4YmU5MTc4YWZiNTEwYjA2MzM4MDBiM2EwZS0yMjc5MzI1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:02,801 - 日志等级: Thread-9 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-003] 当前节点=[发起人部门负责人] 当前审批人=[hua.pei] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:01:02,962 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:01:02,962 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:Y2FkNmE1ZDhmY2I1OGQyODYwZDM1ZDAyODliY2U4MjM0MjI4NDk4YmU5MTc4YWZiNTEwYjA2MzM4MDBiM2EwZS0yMjc5MzI1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:01:02,964 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:01:02,964 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:39 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:02,964 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:03,174 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:01:03,175 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:01:03,175 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "kca4Sv5G7pGA/YDafFr0+7+w0hWQ0BB2x4WePpD1+jW4M5j9dMYZ4K9KGyNig+0fxLwf8a7zyN3QJUpR5Y2kXCol9HyZB6GbfBQ4EoBpKkEV8xKGA375+KQYecl7PEQVSc2R+XwYeYeHmSMMTsLj4hrc+/pSK9mkQlUslSBm5Gt316/WtfTWAELg1nfznbANfSihpsbRqmR/5tqCY5L/AZ6+FndSBop53agaI0bbjyRTlD7roao0V7llTFxvUXJZTvA2Ae6NGSum5i6/Zp2gzoQCt8ADHNoaUDFP6Iy61+xQqH6jULB8HqziiQoiaNmdpvr+3KY+hnBtqgTVlvNvQg==", "password": "hi0SUsNAiFL8dv+gzhDQgAp4+K+hnjTx0iDSOROvioqSLypJx/CMuIMrCwUFxVc86x+AehVvFJQ28DXN5QoiQVOFpe5ePpcdoISf84kQ48M3zH0HSN6GLvY19U6Lea20Z0/Wc3JfZ3CuMqdX2ySyQOdHIus4brXfvmuL2TwaTqQh66QKh/3G56xWX9G3ifdjsSwb7AiP7bkaVrkirFVFZ0W6Cz4dKNkYRedD14zUTq+PZgozRxcJBz0tN2lnp3XC1uO2xc/KFbuEAoRSJ6qMia6i0KH7elCyUHyiUO0H/o3bRxOKmYRmgBD6tpjLKLiXUx3NNcZIcF6cJUpOE+RGbA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:01:03,176 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:40 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:03,176 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NTJiMDVmZjk1OGQzNDQxYWZkM2YwNThkMWVhYWY1NjlhZDVjYWNhZWU2NDhiMWZkMGJmNzJmNTdkNjJkMGM5ZC0wMDEwNDI1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:03,176 - 日志等级: Thread-9 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-003] 当前节点=[产品子类负责人] 当前审批人=[chunli.zhang] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:01:03,443 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:01:03,445 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NTJiMDVmZjk1OGQzNDQxYWZkM2YwNThkMWVhYWY1NjlhZDVjYWNhZWU2NDhiMWZkMGJmNzJmNTdkNjJkMGM5ZC0wMDEwNDI1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:01:03,446 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:01:03,447 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:40 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:03,448 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:03,721 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:01:03,722 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:01:03,724 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "MuytianngYbeboc6YG0wpT27JBZZPEca80K7RSPVB7yVO+SDeXohbEOSlNTGaTJkEPnRUSw3M4w7e9jdJgC3++ZrcgYqmSH5qABKHnNxinmdWy+qt9HctLx4PJaG0Nu9nEnLZcZqfIOsYTaNthNhNAkRhQbiQKwprs4W7flth6s6q+Ghbz3LjplNThOKpCthxVEsHBJGYrj+17IyupBNWIG6vCkQwA4F9mZtBsawl9rThIwjhJ0L/IwHLu/oMs3hY4b3D1DAjSHSc6QYpIAJqz3itYGU7tY9Deu7nIwbSedpAL9+f8Tf4SaaJCh8U5iRxQWyncSZYzAKu9qdzWfL0g==", "password": "eTg78soDGv0h+8AVQYet+DzTVoVLudvtiH00tk7vkzei08bi1SFmqJTVIrLEjc0puUyivAGLkbFwNZt2bWhW6R1BiBoS7Htb4O/XI7zvh8phCYv9yxzUa5QczU/dWuqunUahTvNto0kQl1FgwbAA0Qqmv9a9ASHIlXtqNwcQWPogHQnQLT7a5O+4QISEeoPVUxtwCMO9GWxAKLpmHYKujUVDfJOY0JQKPZICvFNejrM7NnirdumUKzzs8LGUNY5qZ3celWNeSnZ82YbaIuscAuHd2SMT3GCp3XtdgiOOHpIAoAcCkW8qdLMYVLcj54chMv317pfidJv2LjrttFoecg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:01:03,724 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:40 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:03,726 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NDNmZDM3MTAwMzllN2IyNGRlMDg2MjI5NzBmODE0MGUwMzNkNTAxMDk4MmU0NDM4MDg3Y2JmYTYyYjA0YmQzZi01NDYwNDI1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:01:03,727 - 日志等级: Thread-9 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[BJSP-202304-003] 当前节点=[产品组] 当前审批人=[zhouying.shi] 发起人=[sunxiao.zheng] 表单标题=[报价信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:01:04,119 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:01:04,121 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NDNmZDM3MTAwMzllN2IyNGRlMDg2MjI5NzBmODE0MGUwMzNkNTAxMDk4MmU0NDM4MDg3Y2JmYTYyYjA0YmQzZi01NDYwNDI1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:01:04,123 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "BJSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:01:04,124 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:00:41 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:01:04,126 - 日志等级: Thread-9 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:53,297 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:03:53,299 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:03:53,301 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "lC6JAS3FJaIg+vCHFI18hUdqs8wRhAG2vqMPZ3I8WRsgaC7pNTQbvqhPu+kcmEkPTh2MeTTfZbPWLvhlaVG9fyFD+BwPmBqmgbU+ue6OUTpGZM4ZlDOKga0EWb4zukRdWWbSgJ13Cwhdy54/JwSKRkEB56ZQKzpYR5BP6xU4+T/W9ACboE++drwbku/574mCVq8KiCj/gw0cITWBA8H5FFssT1ibiNAKFCRJ0dDfJcmOm//bZErE2a9yaNcQ5aADdLxbashssFDj1V9lHa6zrHnm4bypntV7gmzjbb6TgxvH/gZPu0KnesNv/RwMspsBZacWn3Xv7QXCFn3HO6uXgA==", "password": "a8rJj55LgCEE+eb76Y15xqiaZc+Jw18GmSR1lpflQohqO1cfbvsiaseOOmHxWCn/wsg76B/GUkBjHPNoDhn64Q0HyFJUG8OLLF3njuKYjqfb2DfRwEDSkI0NvKnRRIi4Yay9faJckrIZZ2wLU8v25x45bs2RNeFec4jQERXfSVU7psDFZkzK8V1kgEhskRSs9W9gaTnCPlvEiAcdnf6xZYp5SQn/Oco0kTbFSuBolxPPSGIShuKo37SS3j1/zwb9fOibxvOEv1+Ofd3JmAZKkW4Ti5ECGPt0BtOh5aId4BQURA6xXxkVmg+yY+DnNzpvA0gBeTiH3EjwnWWtGR7/Ng==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:03:53,303 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:30 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:53,305 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"YjZkZDM5N2NmOTMyMjg4MWE3YjE3ZDk2N2RhNDYxY2U4YzU1NzViZGM3M2QzYWJkMTMwYzc1ZjYwZTRiODY4ZS0xOTEwMTQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:53,305 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[发起人部门负责人] 当前审批人=[hua.pei] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:03:55,226 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:03:55,227 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:YjZkZDM5N2NmOTMyMjg4MWE3YjE3ZDk2N2RhNDYxY2U4YzU1NzViZGM3M2QzYWJkMTMwYzc1ZjYwZTRiODY4ZS0xOTEwMTQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:03:55,230 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:03:55,231 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:32 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:55,232 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:57,173 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:03:57,175 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:03:57,176 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "TTF3K9f26OqEKeSYXr90rSn9LTqABwFfCP8lqP+8oCaMZWQNw7gJze5zvfPWpS0I5NbC36ZrEkVqh3xLYkFz+NmrJrkwXMzw4ZsDINAf2lXyjjVfjAc7b2ftHp8VDPw+k40LVFTZ8x4KmykEprDcUGx+cJnGudpCm5WUN6OT4hV32ajHf4KU7gzo0O1EpmlVFhyS954dFBCwt5omg7y5Ia1zdL/GspWlERB9s4I1jRcPlz8lWifsCDdE2m4mIfxHZ45MsDHTypsaT2NobS+gI703iJm7g32we1+wWlNft9YYlXQ/iVoQVhFze6z0efb42Pi8mKpryaWzoxgMqunSYg==", "password": "QcNCVAUoE1/VLGFeVP9kqwnaO5pshqeUD+qYAiS5mUK+CXWRODVLTZiYOFKqX5D0201f6UOQ+wPXStRyqKGa//5yLgGVd8841GjAj15/Ar0UIpa6yvZvWgbB0TSOjqbLd7RFWQUTL4hRO5R9JUs48EUtLtEFa4WJs9HB6okJgg2SzD1A1jGJTYV6TUwMoRWqUKIr4avN47dv9oWq7hHW+c2QgKwxBI7l4ms8RhBePU51+C2Bvyl039VVMkKvWUMEOQaDGRRvbSMfuZ9LS9D6sZRbVcFjrD4g3Vgit1ZWMt0NQHgTIyoyg2ow5mrTL956L/r0510N2re3NreDyNBafA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:03:57,177 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:34 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:57,178 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"MDI2MTBmY2ZjMjQ4ZWVjZmU2YzMxNWU2MDYzZWZhY2QwZDM5ZjMxZmExZDhjNzI0MTJhMmMxNDIxYjUxNGVjMS01NTA0MTQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:57,180 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[财务法审审批组] 当前审批人=[jun.xiao] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:03:57,456 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:03:57,456 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:MDI2MTBmY2ZjMjQ4ZWVjZmU2YzMxNWU2MDYzZWZhY2QwZDM5ZjMxZmExZDhjNzI0MTJhMmMxNDIxYjUxNGVjMS01NTA0MTQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:03:57,457 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:03:57,457 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:34 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:57,457 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:59,481 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:03:59,482 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:03:59,484 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "lIpbJbjX9KFqBR3e9JyrAlaP+zpmzwiQi7wP1MAphc5h2824g2HpBApQGSMsCfXJyOvGkxdDQcUNwv2EJeaiepMhanhxvAxFvNE1iTHvHkr0jO22la2j03vSpiR/mn1U0ixRQLK8x1WVPcp0+xQ16k44gYCADvY3kYjj01yCJLegwyjEo5gzlJ2ijyGfkhzolvaqtJqF1r3frD5+N5PdSdFRxPs2WduQsTqh7gD4xuHFwUuoGlmbVUAH71im4guS6sc2CMJexvM8vXSkVtgKBSDs9bCFRZYnmPRQaUaWS1eAJ9UIHfnUM/nV23Sh+i0riX1HGc+3CXpXxpnd3pjXiQ==", "password": "nK/jD8WFdvJHNOVvaVCiRB+2kQASqrBaBe6VaVUbR22v4XiecYv44857P3PiOYngYayaHENv9+M0UxjEXGlYmfyPt3r5c9vCyTyZkR9PpuAb1CdqameXsYySCb9pSOlwCQ4Aey56kHxObwwzvJg5uY7OkDXGSp7HhB4vmsDiSNj5aw7BLgTEsEXyXBFUT7qmFOUogDwaYMnKbSugO/+ZegFvUMuVmBORJxK3Kn0iiHQTQzxep7a56U4SVNNmMVuTTqLCqbvTgxUwkJfl4p0/pxyAuEuDYLpwXEj45DOEI9DbNJ27ijZ8+M9f9kZKs0L4jgGSXBx3su395JrrwMNQhg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:03:59,485 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:36 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:59,487 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NjAwZmNmZThlOWI2ZjI0ZjI5YzdlNTI1MDRjNjc5NTk5OTZiMmRiZGNmNzQxNzU4NzgzZmMyM2JiNzE0OGNjZS0wOTI2MTQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:03:59,488 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[合规审批组] 当前审批人=[ping.huang] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:03:59,806 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:03:59,806 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NjAwZmNmZThlOWI2ZjI0ZjI5YzdlNTI1MDRjNjc5NTk5OTZiMmRiZGNmNzQxNzU4NzgzZmMyM2JiNzE0OGNjZS0wOTI2MTQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:03:59,807 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:03:59,807 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:36 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:03:59,807 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:01,921 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:04:01,923 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:04:01,924 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "HdXzGMiipwQtlqm3BkA6Ny43BQCS0bvgC3LQMajsUpvmv/Iemjxvfi6q2YjI7gPKH9N5q8BKyOqwtY1QJ7kl7l+9My/nW0X7J+HOGe9xfTn7QQ/GFPGhhfMzzxMszBmTefOXzDRU+ikqAt5KAV/3lNvNfMFWtdBmxREOR4lnqB8drnp6MWm5/qA94L/h1Dcgchlt2XVwsDmOeCzOmKYgql4u24NCjj6OjSVhKBZJY8G0AawuWwvW+IuLddOml4FSxrDHeezr3HEe/pjHHNzNmaXPahbyVkMRXE912OIHsoEerAGxwx+7tQiHflgu84KZxGbsrGSaSQAVXc37n2Kgpg==", "password": "CgHaS/cKZs2NrMVxbflj5YnGI8/YzfJVPvaW4Rq425oifWV3XK47qupb2w1rzEam3ljqGV1JnoAKZMFo4cw9PZgUgnsAjmc6TSfQ/yzaOzZ6ScbvNCn4X9dwPFHy7tOSD9d8TjucYKjvCPzgASkHKYptC/u68mGQoJAU5IkOQkV4tLAcm3BWeIgR1T2+4QUICzZ5bQlbj/BA1QlUT1aQereVUw32KM57L2kxXqvC1pkkLdiMUKNRbfvAZgC3L2kNEi/pRmneuvmRMTA6bipOdj215JWn0jjxbbsf6VnLzk4/4wCbUliikuw2L7LhG66JgwMdMD8nm70rTMliSWdcMA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:04:01,925 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:38 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:01,926 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"YmZmZmRmNTk2Yjk5OWIxYTczNTY2MWFmYzY4MDc0ZTVkNzVlMTNmYzE1Mjg1M2JiMTJiMWY2M2M3ODEzNTY1Ny0wMjc4MTQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:01,927 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[合规复审组] 当前审批人=[hongyu.zhu] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:04:02,089 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:04:02,090 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:YmZmZmRmNTk2Yjk5OWIxYTczNTY2MWFmYzY4MDc0ZTVkNzVlMTNmYzE1Mjg1M2JiMTJiMWY2M2M3ODEzNTY1Ny0wMjc4MTQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:04:02,091 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:04:02,093 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:38 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:02,094 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:04,255 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:04:04,255 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:04:04,257 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "OCibCtaOIpwYQoqYuA16nhdmkpOG6ZZDEILMfKm+F8qn9dxY1Db+zIqiloIDJGziZcoJhROENE9v5KDAfrkRPxSOhVTBuB0u8U44R1par+zWX/zqyqjfEC0ajdvzbLlOvjCoZ/Ma7e2l8hkefrUXXyMrbplTbC9lYk/pCYJx0/VM8Sx9wf2EMduJ8QAp2VaFetWYOXa852rrqnR61w1u/FRZfw4LvPMFgCeMgr7+n0yVlLPhLqUOZ0y1ax2oOBEkXR4iuz3+LODo9XNESdGWUPHj2SPQ3s/A2d8GDl1Tjq2pK62Sgrd352k/vu1cUz0PlpUCLrmgtiwKbV73S0ayLQ==", "password": "QB3zP1s0stZbKGhbO9OqFETxfhCunKMkVk9/m75xPZsekJ6raL3pxpZJHjYdCHzUh6tjEDgJ0Ecj8zJ9lVcVMOCrkzyiBJTHh/PH6vWWD6euu0AO64Dfniu9NR7zeIiD82eWSoiy2M45WSHPFvAeLKOcV+VoI5SRYSSpBH+//xKU2MBpyPgFRI2t/uCYs5LUwILMNVe3ohHlZfCiH7bvKWbHmuH12FFzFu4muivPkhtab4iz4NTyLXHJ2NcnAR9vT87QZEXBsddnYXdGN+KncYZ5CIAcQkrNxWlnU68ZOmghR/qmLAhyhTptD8kEiZFaqfgTWoXBtYfr9Qps+3riYA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:04:04,257 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:41 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:04,257 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"MzRjOWM3ZGIwNWQ1MzIyNTUyZTIwOGJiMTY2NmM4MTU0ZjMxNzExZmE2YjM3NzJhYTIyOThkYzMwNTExZDU0Zi0wMjAxMjQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:04,258 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[发起人分管领导] 当前审批人=[meng.zhao] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:04:04,469 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:04:04,469 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:MzRjOWM3ZGIwNWQ1MzIyNTUyZTIwOGJiMTY2NmM4MTU0ZjMxNzExZmE2YjM3NzJhYTIyOThkYzMwNTExZDU0Zi0wMjAxMjQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:04:04,470 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:04:04,470 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:41 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:04,470 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:06,295 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:04:06,296 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:04:06,297 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "nCvaKdVIB11QuHpiwMRU30IGleKvGZAJjPwyvXPPOyXkPX5M8GD6/tU3Q7GtPhtwALX4szun0/hXQsZgjXyStvJiCXQ1WyhYFEo7OEANJzFW+Z5UZJGxDbZlGENY27KPTqDTPPxJATUTwnYXBpwvxF8rYHCvYHu6QU18eQHroJo1IhPF7frGAayTucv66JkICJ5IMNnjzLUX5aUDJlJb1+UkukKrIscLvtVQ09M/NERZsZ5+Uofa0FI4N6v6v1F+Z/fdr0N3qvArlkAvYM56IctIgO1/jyVv6Pyvza4bM5VBWusedUabZdBwWIcdMq9x1PJXOWV1WTuWlqUxgcPazQ==", "password": "UFjG8b8KLgIzYWNMd0ztuPlaSMxUli0i2F+ORr/mBgfNJgdSLUPE5Ni+k6UTDM9f2tAebn7TGAYcXLVZKEw7IvpjKWsp4sdLZ+bB1Xa9AbO+MYA+2YPVjheKQYxkWNe6sSVBqd0sOa0ucoYvX5hPsSbr23e3SxKTTI6HcHO3nNbmpa/iKlY6a/F/WxviNUHTNZyuVuRlAUYyy2w50Lc8VuwW72l5UeolWbqFvKjf46P+NIrvlWqUUbt6N8VqU3MvtQuT7KTnMRVNUeW/Wbah/veDIzwEHA8VQSmj5hzygbPXl7g//Cldsba731pDBH29EMq7gpK4hzThJddXlwqhzw==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:04:06,299 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:43 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:06,300 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZGI1ZmE2NDAzZTE2MzRhMjkyYWE2MzNjMWU4NDIwZjM3YjE2YTNiY2MyYTkxMTE5ZDVmNjZkNWEwNTVjNDg1ZC05NjEzMjQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:06,301 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[总经理] 当前审批人=[meng.zhao] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:04:06,542 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:04:06,543 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZGI1ZmE2NDAzZTE2MzRhMjkyYWE2MzNjMWU4NDIwZjM3YjE2YTNiY2MyYTkxMTE5ZDVmNjZkNWEwNTVjNDg1ZC05NjEzMjQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:04:06,544 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:04:06,546 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:43 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:06,547 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:07,701 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:04:07,703 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:04:07,704 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "LeKMWF0RPjqTjG7kJAAYOHFbOpeovYwecBvY7ktW2cQad76L0bnKoMytaJ5r2coRgpQFkiM7vyp0gFVbdiSf3q49R9QFNZVfNlclGSejwBUwielWNaKSdGkrm2LEMxWW8U7JFEsaNPhCi9HFGT6TIDqo/7KFKG1TcXlijifOEw+xYRiUJzLIFgkAnva5TrDZjrbcY8k8P/8QVki4+D5dVJo2g7HHwLlV2is5HMUPCbSdqclKZnoU6/wsNmfcQrhBXOEbBlf5uQmgN03x7dOEVMjOc0tn6c4+jtVQ2HMYwSVwjYNeTQ9MelktnZte+dSpyGFq2FpvJ3lGLIR6j4BOBg==", "password": "WaWI9YEI4srOg+qd2q8edkJw0JztzvsFt+JMBNyLTJv9jKHuvxgrw95Vtv0Ek1JMo60NWvSqbn8oLVVzzBERFeEKkHWBYIIfVgG4Wf7MVD5Bpy7GJPy1BrP+9b4rH/Feb3pBJxPf4BsrrFf5t5nkPee6wEAwwaN4lkRy9+lrx2KdMQdN4gn6iOwcuFJvXt89m2E+1CKyOYWIAUWsTtYLAwZgADXCMQRfnDrYoxXcTQoQhBBrEQ/VPqOgH2sjs16y2NkpmZNeCCPt0gmtTc3Nboh5QTanW1TBDFQlayqSDcIAMKPPvmm/27pAtk/uBqaLG57Kjua90JidKpY6orbJ4g==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:04:07,705 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:44 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:07,706 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ODMzN2M2NDgxZTc5ZTFkN2VhYThhYTg1MDc5NWY1Y2I4N2Q3ZjVjYmE5M2YyOTA0NWJiNzkwYjcxNzQwMDM4Zi0zMDY0MjQ1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:04:07,708 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-003] 当前节点=[用印上海组] 当前审批人=[zhihao.lu] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:04:07,956 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:04:07,957 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ODMzN2M2NDgxZTc5ZTFkN2VhYThhYTg1MDc5NWY1Y2I4N2Q3ZjVjYmE5M2YyOTA0NWJiNzkwYjcxNzQwMDM4Zi0zMDY0MjQ1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:04:07,958 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:04:07,959 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:03:44 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:04:07,959 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:30,582 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:30,583 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:30,583 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "LkjC/WMUn6KXZYq4WM8zW4uQuqP2um3qi3E71bG0YPfj1WSJcMs1bt4tZt4pGXnbwIYAPF8LMklXjBlFwqtUz2uVttEmvU92NXsLxP9pBqmltvYssnNJN6AFj5V8GkQxt3Omeuj3/jBEYbiUhDF4XzRs9hmApoiHkyNL08/Ya7r3+yzgJEXLb7K/9yGl3J8gAYSFkXBJ2sceIxlvp7CPnotsONkTkWJ8ImUBwG6AK/38sJLVzaAtq3wZUzXIsIzSS3bLqkzWvnBqFpgc2NCBiD61wmWpiHnwKl81m290MWdjL85Qcu4INHIkvXINkK0mmyQfDAWXVoHV0RCtOuU4bw==", "password": "afir7tIu+gNbvBCGSlzH2x/NpD6cV7j/6C5KA4FQrSIyo0yOFacnXFJLPka59gvKEkz6M8De24KfTKySuB0tnpKNRR1K1cqmKzkLF6BmzzL+mhZrNShMTCunfq7sHdDeoURTuWXbbhToAT2WrCcX4TDZI8r/wbECRgbKLgzkJlaZ6XO01lLmUxNr9EwF3WIGh+AzeXyOp5ASaBtawqJAB8gz2OPgfb+BHSKuK7CdO1mFJTvJ/qqA0SWpMteCied1ikkSGol76o0w5LdzD8f9c5tA/xfljqvZxqG0wBWhuzT0l5yGWJ041znH5UQxa+mNpKMgIhxD6VmO1SbzWMe7tA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:30,584 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:07 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:30,585 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"YmJhNTUzYzAwZGI1OTVmMWIzNTVmM2JmNTNkNzAzNDYyNjlkZTM2Yjk0MjQ0NDc3Y2RkZWRlMmFlOGQxMGYyMC03NzQ3MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:30,586 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[发起人部门负责人] 当前审批人=[hua.pei] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:30,754 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:30,755 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:YmJhNTUzYzAwZGI1OTVmMWIzNTVmM2JmNTNkNzAzNDYyNjlkZTM2Yjk0MjQ0NDc3Y2RkZWRlMmFlOGQxMGYyMC03NzQ3MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:30,757 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:30,758 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:07 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:30,760 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:30,970 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:30,972 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:30,973 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "HqRUuGsEWHEChkDIusI09H3l5o+C3Y48t+QomD5UL11c+0CjhGPBz6p5NkBFbzzKkImPFjy/UxrA1d8den5dSDn+7iZegL65XH5RUP2yTE0nqTK3XXbyOSHm4J0RiD9D/80XhdDPHSwu9rrVXUziRRW1xYQ77ClxebZq7DbZMktbtY2WD4yz/01hj5p2Jx4M3iWsHGhbPZvGTzfqa9/ajF568s8EYqiOLVnAhtVYbBCGm8Soqot4YP848aMGV19GK9llSXMLyoNxN8A0C1AKpw9qnpgHae1IE00EC2P/TtS2UNuliuJZIp7foJWU+H02ttfkpwRmnD6HlUquqkly2g==", "password": "QPbfI2v/Gu+eupx9+nbhIRFdctaeJ3RU/5vBAK75PAD8e73Yoa4Lk3C3vaKzzxS9iG6SppbzxjKb7Imfq7dJMzMkU1RFEwM9tt5C5WDPWzHOzVhGzGjQks34Vm+zG7Dykj3cY4tdef54vLCzC+/ym5I2K77kip4Y5pwJIc8O1/hUF1cbLfWTyDPAuTAxj8zxKDwZOhTcXfkJsKXCk75wJlN45gr96AkpDWv2Gj3KIZ5AqNqeIvxDlzhVfAGCPZwoht20kEahnFUlqDcUD66TrZZLuS+dzk5NQku5utkWnZX2bsmTZWLEMuBRuxS4+Ym2Qzaj2mxaPH3MTNTMmxUVFw==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:30,974 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:07 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:30,976 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ODczYjg1MWNiZjBjNmY0NjI4NzdhMTZlNTE2NTIwMDJiNTJjZjc5ZDQzNmJkYmIxNWQ3NGY2OGI3MWE1MGYxNy02Njg3MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:30,977 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[财务法审审批组] 当前审批人=[guohong.pan] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:31,135 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:31,135 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ODczYjg1MWNiZjBjNmY0NjI4NzdhMTZlNTE2NTIwMDJiNTJjZjc5ZDQzNmJkYmIxNWQ3NGY2OGI3MWE1MGYxNy02Njg3MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:31,135 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:31,135 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:08 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:31,136 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:31,427 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:31,429 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:31,431 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "HKXiMDwjCsBW7sDa+HxbP2DzmBSzPUdy54mlCJf9bpTxQ9TpJ64BQyJJFmP2MrOr/+Fftqgl2T+lfoHHhByS3JqF8ns7p8gmgVsLUepOM7VcdLfkj/nUVC7RHQTLlJcMLeKFzyfEdOiR5W/a8Trk9jRWwODBfQd3hw3pHAfc5GF1mbJto0EWH8BG9YTJSb7pwfH1ux5UOYAU742zNABGHUr1WV5tjN3Txg7K0h+Msjw91v9tVSQAXmdtBHeH28uZVktLoFksMOr8UgBZhb6/uAxusrsnaDg431JToNB3tYSniKjdF/A3DSDXWy5w37JSz1RgLjofRv9fkDVQlRMJDA==", "password": "S5hhLNWG6jVfn4D8RxBGD4/Tdtm4bohPIiW38hn62Ynn60QwqYVbV7yLO+kGICKrAiRth/YJ8jhcpIWyEzxbk1FtfTDBhXni6dMSP4bG6t0mvu2y8ubD3ZdFX9xQidHfzloHRd8seUe8BMfJZAg+ZdxBmrI6ZnYbZsHMIbZG1DQYQ7+Smp8bNigcn8Hj+4NB0C7F3uNfQo4t4oXDdLfWv7FM31MTNSZwpLQFOyAFg+fc/1F4WRFeMexeQ/Q5gfarbhHrIODnQRFXK4JtifmaQNBu3llrLhbdbyBJ58IUCk9SI8+Mzl5SZ4kXx/uL9RAoif8Q4sArztQGtcwMyZPxhg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:31,432 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:08 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:31,433 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NjU5MDQ5MTQxMmY0ZmEyOWMxNDkyOTg2MDcyY2I2OTk4ZDVlOTRlN2IxNzE0ZjU1YWEwODUyNGQwYTMwYzgxZS00MjM4MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:31,434 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[合规审批组] 当前审批人=[ping.huang] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:31,558 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:31,558 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NjU5MDQ5MTQxMmY0ZmEyOWMxNDkyOTg2MDcyY2I2OTk4ZDVlOTRlN2IxNzE0ZjU1YWEwODUyNGQwYTMwYzgxZS00MjM4MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:31,559 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:31,560 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:08 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:31,561 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:31,798 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:31,801 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:31,802 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "NG/fzHv0iJRrCMKtWVQZQLDpE0HxWCa0ccttouNiBucLTDvXTyq5i2aZLWYObckaeUnsjUYDhGX0X2KkCXhFYMQovkUWQY79txf8ZRU9T0XKQvRdEnQ3CXmedGh/QXlN77HZse2/jq+iMRX8vvv+IzPL4MvGO+21CPh2UeKtXW3H4qgZKBnYTZDtLEnhO+UdsejCqnNkhk2bjesXaxK1231SgsBruH0gapMaA8nss2HXDpIF5jxwlEOSm7Qtgt/5XAN/JlDdUCAGK7LV/KZOVm0buT8O9J4KINc30X2bqU84TXJh/P4Ij0QmeI5lyCNLgoMTFW8U7h8SLMSkfYvA3g==", "password": "gkY4q3s8d8xr0ojqb+z2wK3ySU5o1jOStmg7cy0RB13Ne43/9ob0yBkQ8mSbQeRWP4nqlezO54wfH8P+gHs3uQvjhus6nE7G/eQHqwe7xruckgxtcUE1tMh9pQ2IB5si4H6hAYBgAKj4EF/fexqDsuCS+pCxgpq2kstPAgL15bL3z3xg3KPVVINXeJBAcCDpgS0cXqsAMjFY/l4GjwFH1TAlVZlLRN1BlvObqpKjVlDsV4HGeLfxD2N3maGRGhio7VSkIrGp53/l8Xr9Ds02p8m3TJpbDvYyI5GnGYNyKkq5YVMFzT1X5pQ0lih5Tvg02YjHe0VK+vlHZ61ftA/w6g==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:31,803 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:08 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:31,804 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NzllOThhZjYwNmMyMTMwNWM5YTRkMmM5NDBhNzJhY2RmYWEzZjk4M2M1NTRjN2IwOTk0NjI4NjJjMjkwZGJhMC0zOTY4MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:31,805 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[合规复审组] 当前审批人=[hongyu.zhu] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:31,957 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:31,958 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NzllOThhZjYwNmMyMTMwNWM5YTRkMmM5NDBhNzJhY2RmYWEzZjk4M2M1NTRjN2IwOTk0NjI4NjJjMjkwZGJhMC0zOTY4MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:31,960 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:31,960 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:08 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:31,961 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,171 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:32,171 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:32,172 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "VL43H31U9noySQQgiyHbnllxNjF2bZ5zcd5IXhUqqx+D7X1PKwz3bitVs3SnPFEDi3hjA92Ul2QMyLevZJxvI6JI9wp/19Fh1kehJNLhxkKyet6a7MktxDjGnt0y4dDd+Or+0EBxuipvM1Kl+UozZ+3yUZCMzLecVJuZlwkMmtuXDJlRQF7AYszLp/WjZpl0M0y9LyWa9EdCgr2kvF2dGstN9jkafn7xaRDf6C/rbWZwIJUvxCADG5oW6hvn7PjmbfFOVAiLUpVJyA1FKCyrsbx1peI29oXlsOFKQbGr2DgFzBZq1zsXaFWWfwqNV6FhYX0AMr4L/yMVmb4ukh2hww==", "password": "LFTY0Aiqr7uJjaiUzBWnlus7rVM1m/kB+TsYBvHj0upgax2nChE71VosolMZNu7pTk36QULwaMnOOi5RI/U5436tcYe5yZFjbEBxWj9rIJbiAwuQhHNxX6h88h2wDcWlRk0/RppeVWsmGiWI2x9NYhGWpyejy0elskLeUIqjNyzrA0XFbcoa3UVPbQmN8/MaJepHWUOKHskM9j0gSE0bNcpar/lhwY9m26jg5DbQK9xVSGZkSp4YSbJo0cyWtMac5gRaw1vfAlx3G2i2DGWENorsJJ1HfTsiQoxII01/I2WKrU6m8DqiM33UNPRq9l30U8D4ql+BJLpQs3giyrrdXg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:32,172 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:09 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:32,173 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"OTYyN2ZlZGY3N2Q2ZGE5ODMyNjg0YjcwMjdhY2ZlMzE0OTNmMzg1ODBhMDNkMzFhODkwZjI2ZmEwM2Q3M2Q4ZC0wNzA5MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,174 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[发起人分管领导] 当前审批人=[meng.zhao] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:32,315 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:32,315 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:OTYyN2ZlZGY3N2Q2ZGE5ODMyNjg0YjcwMjdhY2ZlMzE0OTNmMzg1ODBhMDNkMzFhODkwZjI2ZmEwM2Q3M2Q4ZC0wNzA5MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:32,316 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:32,317 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:09 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:32,317 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,532 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:32,535 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:32,536 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "TBTbNzdlKCEmH+hesmW6qkYH5QZ5UQZHDT1bLfAxVPB3hDdD7BLM2lsnRYe7LQJ5A8x5dL0eidBj41/jYIUrGMONWWRLhhUeIfm4BTm+gwqaP1Errqu1W1Fm/zU/wC+JIkat4N+oIiwLPTbVRaUGMFjA343Hu6zJImZrlefe4m2QBjSIUDjxzfQmmVKFADH/ee968DWNVZ5VgC5CM1rf9bD+sahYkeEL8AlGotDQRBQBOL6P5xks0ab9BmFx1jygVkyzb78sNPVcVTq/FHdbQDAEq19gsgnLRd5/zolGqzMj0Q7qPCO+I3EoMbPhsDMB3lp0qVhECSY7uwTDPDYRUw==", "password": "fBO5POpug/yImFB8LuffKhjBXvpOVNwrdf/JuK4+rkBPsS8zQ70nXC5IYpRvt5uA6ZJeoRWfbH0YJcpqpmAv/YvZFkrjgIBgneDcyxmkN18AF3TJNdEcV9LG6o6yJzb95Hjm3n7J2nbNt4lq0K1mOvY+qrPwiRZ87Vs5c5brVGP6z476j/Jhis8FDh30iyTQKO2bKPSwhKnCvB+tvWmZ0s5XBj0zEQujzibgN1EipUZgs/+T0kziE5BFyHxKyjb0J09/elhwKWkeIQ1N0Br1AtfrrKhNeH/OvrWdNdlYWf6t7Nvb5wn/IKQ2CJu5unIXK46Hyk11/Ng0YgFagrK9yA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:32,538 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:09 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:32,539 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"M2Y5YTgxN2EyZGI3N2IzMDgzMWI5M2Y5YTg3NDcwMjZjYWJlNTI5ZmUxYzBiMWVlZGNlOGFmNmI3ZDdhMjU4Ny04MjQ5MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,540 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[总经理] 当前审批人=[meng.zhao] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:32,675 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:32,676 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:M2Y5YTgxN2EyZGI3N2IzMDgzMWI5M2Y5YTg3NDcwMjZjYWJlNTI5ZmUxYzBiMWVlZGNlOGFmNmI3ZDdhMjU4Ny04MjQ5MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:32,677 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:32,677 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:09 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:32,677 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,879 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:05:32,879 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:05:32,880 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "RhkQemC2o+igUzBmn23hawQqaO8/oKaaoRZzWfSq94rxxrLZJjEwcoq7kGAsJ5ZnZFh0aYJDE4R9MHRldNqLf6ry3HzIr6DiBBj4KE6ulwEXk+8bcVNelta/bBPZi0W1dPwkuAiUlHFxIBLu7mLtDL+kjsoztVkhFQPW4PL4WaxctLDV80lt+7W42gOTI6XnD8MH9NYQ8HNu7GXMCyVh8ne7XQxhOzFxxKyiRay+gd6Pjtw7dG90nKbGgmUHO9xzuAPbh0Ry9jrh1Ms4LVyGaX7A/Jt0ZtSu0JqGAsLxiZPL2Pf7W9HgF4gFVcVvvEqy7QAmNL0WYHV/vSZyvJA42w==", "password": "YQ89iOu0mv8L4lLdthSTkqNY5VE+kD4/XeNz9+aDPeZY2JvsU6rjc/Y7tFclzwh3q2ggPaPby2LkJHdEFYfFXiL49Dg82MumseduNbul9AH6rG0fWAIsueiFL62RLB1nKSl6iubxmmxfuvLmhHYWPVRjG8xWP9F133g3pUqfDE2ceP4XNSQ17UrHUBQiKeYAOHXrDl7xwV7dOm4smHgX/sWkl6ti0Qon8MP8JdbddhB88iSyPl0sprS0cWxo7d2nTv0eYwGzhk/q6kD4UhoZo3PaamdQHWhCq6UFB6PKICrjMKbn7Q7UqadZPP/QELxtyrP1N0WGQiqULhGvGRM3CA==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:05:32,880 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:09 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:32,880 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZGNhOTI2OTQ5Y2QzYTBjZDY0MTYyN2M1ZmQ5ODBhMDVhOTk5YjkxYzg4YjQ5NjlhYjZkNzdhOWI0NjNkZjZmZS05Nzc5MDU1NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:05:32,880 - 日志等级: Thread-17 (process_request_thread)-process.py-日志信息：[line:245]-INFO: 开始执行自动审批任务：表单单号=[HTSP-202304-004] 当前节点=[用印上海组] 当前审批人=[zhihao.lu] 发起人=[sunxiao.zheng] 表单标题=[法审信息-新增一个智策客户-直连-新增智策项目001]
+时间：2023-04-06 18:05:33,161 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:05:33,162 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZGNhOTI2OTQ5Y2QzYTBjZDY0MTYyN2M1ZmQ5ODBhMDVhOTk5YjkxYzg4YjQ5NjlhYjZkNzdhOWI0NjNkZjZmZS05Nzc5MDU1NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:98
+时间：2023-04-06 18:05:33,162 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "HTSP-202304-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:05:33,163 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:05:10 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:05:33,163 - 日志等级: Thread-17 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:16:13,119 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:16:13,121 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:16:13,122 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "ILoHALoZYXZ3kbITLpzMPF46mMUdeKw0igfvYt0sXs4Fy4+vbU0tKzkID6H86Ta/X4V0hES3i6roeTcq1MxgDm6+iAuj1pC3N5zaaSz3m5ItoEhfBP2IB7VXq08yV6fZ40i1qWiFq9XO/Gq/nvt5HXj6G4laJXyQRk0AopyouiOcRT0+RBLcm2BZUPRF29BbOgPyj6sZkE8sfKvZ5IHMr5us61OFcovtZXUGf/AKMBHsxteQOveu1HE7K4HJ07MHN8TN9Sf2xWFyU9pByKrvBrjL7PsWjisuqrjzuG6FrBzsPshYUI/rs6/F8EUqBxzoX64gT/pZR2Jxz56ADABuDA==", "password": "Gu14TzFdIQgMkDvg/V3WvgQ2UwQIx9xHBSP8wAHy7Abjal/5exKSYH5JY4s0cDW0DUMuNGje7ivcNCXrXD9iB8eQN0s231CyXEwWOMhqHu8761JjmeuV1s/0iSV159t21zSLLqq/kiOaELAzEhhHNkncZRoVA7x7e9ZSqTut+G4Bm+vQxWRwQIvGO4eXszVvmT5tD6gpJPMQTbC1Ko/aMDJIrks/3sXi6Wpp0ByT/yEG4+hGW/fSTbswHL8Tpv4G+FPxQaAvzD1OnNrDuWWJm42yPk1wwvtIZcaveaSl5/nGOvCPEPrP+Zd8VSy3zo6/Vp5PQYGeylVi0LZJPl1HYg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:16:13,123 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:15:50 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:16:13,124 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"MGE2YzY2N2NhNjNhMTYxNTc4ZDg2OTYyNDBkNzBiMTg4YTUyMTgxOWQ0NzcwOGI3MDYxOGRlNDgxYjBhYTNmYS03MDAwNTE2NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:16:13,125 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:247]-INFO: 开始执行自动审批任务：表单单号=[LX-202301-004] 当前节点=[产品子类负责人] 当前审批人=[yingjie.pan] 发起人=[shouzhen.qu] 表单标题=[立项信息-测试用户-百行征信-新增一个666]
+时间：2023-04-06 18:16:13,664 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:16:13,666 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:MGE2YzY2N2NhNjNhMTYxNTc4ZDg2OTYyNDBkNzBiMTg4YTUyMTgxOWQ0NzcwOGI3MDYxOGRlNDgxYjBhYTNmYS03MDAwNTE2NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:96
+时间：2023-04-06 18:16:13,667 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "LX-202301-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:16:13,668 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:15:50 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:16:13,670 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:12,435 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:17:12,436 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:17:12,437 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "S856hUemCIXdoi5KSezz9qyA0AnjHmSOcO8OGkKVWTVD7q4fYiOjhsU0XejmzPBYL7zq6eEfPsDNtEi9QtI4KLf5TqNX+1W6z+TIU0FtbWdRAQlJ077o2GDIIpN4n6vzRR72fX9TC9PK8EQdE0l81Sw7uNr80X7RK5bXbm8Z4Rgbqrl4WypLfzUINdKP+b2xzdE+NMdQdTeN01vixx4XL73UohD+bUGScydW/FcVu9/ZDC6523krZzvqeVmnRelaEyfRTBXdYtCzS382KPjzZcGQJxiIwIVejtSKVIQWOqv5J01bFFTUjxhS85LWZkp7ZdGHfC7e8RCMr5asYgeGLg==", "password": "QhHrYG9/ofQRmIbdYw/fABXN2nseWE7WgvvApt9hvMK3hQJut+/HERuAAqaez8j+J26U/jY87wmPIp3JcHFKmZY8+Wv21dvbs8KudM+LGpW46YS39PoMXKnQbpaO4g9Juch9YIEkaB8ZLFzSCdU/ntgYIQPpuoK8g6c+kTWnftfw89JEBA14quyodMQqaqx/HjPre1g+T4qYy9aAtfkgWB5RfH1S0gQGJW6s7ZiVH3A48m86NG02GXzgEru+YGYYCBU7f+4eD+IhHvGtFU61l26zjpSM5YySeK6IWhioDrubYzsuNxspAHJpVsUjaNR7EA14Oq6A0IL53WeLII5vbg==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:17:12,438 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:16:49 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:12,439 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZWRjMjc2N2ViMGM4ZjJhN2U0ZGI3NDhlMWJmODhmZDRkMWNlYTRmODdiODI0ZWZkNGI4YmQ5NWY2MDk5YmFhOC0zMjM5MDI2NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:12,441 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:247]-INFO: 开始执行自动审批任务：表单单号=[LX-202301-004] 当前节点=[项目总负责人] 当前审批人=[yao.wang] 发起人=[shouzhen.qu] 表单标题=[立项信息-测试用户-百行征信-新增一个666]
+时间：2023-04-06 18:17:13,317 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:17:13,318 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZWRjMjc2N2ViMGM4ZjJhN2U0ZGI3NDhlMWJmODhmZDRkMWNlYTRmODdiODI0ZWZkNGI4YmQ5NWY2MDk5YmFhOC0zMjM5MDI2NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:96
+时间：2023-04-06 18:17:13,319 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "LX-202301-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:17:13,319 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:16:50 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:13,320 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:13,704 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:17:13,705 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:17:13,705 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "QWGIMoiPkKrNZVlDdzvISPy2UXGIusyA1R95LUobamwFoDxLl8uMfPcFL4zzCFk1us4955SkHlZaqEiH/aErnDKw5/baqMQ6so3+OTpP6tvKSschwButZx3VtEAKOKIpxUDliisdBrJv/D6BeCmzC5d+e6VBNCA+85qdU9NkKu0RkAKb0kauKIuYUZ311xstjKvQqKbUnU2JImfH2aRPwFidKYyoEdsVV5h/imOT1ozBYJfuIouXIEbnlNtAKxmg9mZVvbtS8i/kmS+HZxSyHhC+G6b8NYv0GzA0PUq4fn3cf423rX2C9mFm/kYXfzyE6QO2Q9/tf1ufIDQp1Z5m2A==", "password": "JP4jiyfZ5AHpOSTll3LJemGbRDv3a3JQocu5uXQbM64idC3P1+r9Mk00XNrjT9yoW4yV6sa5pxQS7qHLILgpvsLXoa38lSRhYyLqR2pG422qm1E2jA58WipHZPul2vhL5Nx8aO2bov03PFdP8fLtyAuk3qJ/M0Ja6XxsQuFeXDFeprg/JTYmCi9AXSXV+Zgvac1cLFLo2BnzmJBslOxpt2qskX2YG1IKdPNEf4YaKLpiA7djFj5aqmPda4/snbmEyFLS4j3bdlf4pd/9UXvYyCl8rbEHHE3XZJ+4kIed3fhuv8s92xvGeifodk1IpuRquES1u4y1VE9WkV5pWJtY/w==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:17:13,706 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:16:50 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:13,707 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"YjI2MDc1NzcwOTc4ZjMzNmZiN2Q3MTE3MGMxNzg1ZWM2NjcwMjBjNzRlNjQ4NGMwMTljMWRjY2E3MWQxM2UzNS01ODUwMTI2NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:13,708 - 日志等级: Thread-6 (process_request_thread)-process.py-日志信息：[line:247]-INFO: 开始执行自动审批任务：表单单号=[LX-202301-004] 当前节点=[部门负责人] 当前审批人=[hong.zhou] 发起人=[shouzhen.qu] 表单标题=[立项信息-测试用户-百行征信-新增一个666]
+时间：2023-04-06 18:17:13,939 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:17:13,939 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:YjI2MDc1NzcwOTc4ZjMzNmZiN2Q3MTE3MGMxNzg1ZWM2NjcwMjBjNzRlNjQ4NGMwMTljMWRjY2E3MWQxM2UzNS01ODUwMTI2NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:96
+时间：2023-04-06 18:17:13,940 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "LX-202301-004", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:17:13,940 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:16:50 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:13,940 - 日志等级: Thread-6 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":9998,"msg":"formTitle不能为空","errorMessage":"BusinessException: formTitle不能为空"}
+时间：2023-04-06 18:17:34,348 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:17:34,349 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:17:34,350 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "B6YPTu3ND+65QL3vmG3zF8eVgWZaVrPUyrOr4ADTtgGzSWvKnpL7d5OSZdNqp2l9ZL5tpUzew5lZlYvYLmLuHnu1qqocOFr2deNzkIPujqPEAmVZy6XPdGYNc4RqPm1xALuBr5LRrXtFicZsxkIBw9rqgGiwH1cUhIjFUMU32ukPC7Mfo0Fl88U4zajoU3DK4XfwO39JLQ2ZdlrAUheyJc+NZm5lUEL7I8MmElvlgv4pojoJW+ruId+nbEMLxiPUeTdmNDhU4fWSMSFmc4c7bWWYmTy5F3wZyj31nPsIUY7F0jBND8rQyyJN/MfmecJD5CQe1DEZnxZWEacIZT+rSw==", "password": "V/P5XTQQmSA4qDAWIjswzl5m/j1RyWSzh9pqCzGVIZ0u0vH0gaj5/T/pwT7j9aF1CgxuY6htDtZ55q2JeIkLLUOq0EXi+xTh9xj9HLN4lZeJENcWl3pQ6N4Pp2v2/qJi1NLqzaUQ9xh4AkzHAYkFLXpWYLmOr8003vPAMj1rpGpTcgg+M4mBKYKrmD2Te7dfFa8oLhN9hiYPxOokTrnVAgk4PP/gsDBhthwa3fhdJUUlD4JVPs8DTuMpj/u+NnwgxhApXN93/hxcXMSghuw6goMiIlRKTX9HDdUoE999oEjT8DtTS57RarW31vF49Jcrzh6tGilnyUHBmfxDT3MY5A==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:17:34,350 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:17:11 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:34,351 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"ZDdkNmRmZGQ3OTI5ZDNiMzhjYTZmMmIzYjA4ZGRlMzljNjdjY2Y4ZTkwZjAyMDc1ZGY3MTI3ZjBiM2QzMDVjZC05MjIxMzI2NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:34,352 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:247]-INFO: 开始执行自动审批任务：表单单号=[LX-202304-003] 当前节点=[产品子类负责人] 当前审批人=[yingjie.pan] 发起人=[shouzhen.qu] 表单标题=[立项信息-测试用户-百行征信-新增一个001]
+时间：2023-04-06 18:17:34,531 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:17:34,532 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:ZDdkNmRmZGQ3OTI5ZDNiMzhjYTZmMmIzYjA4ZGRlMzljNjdjY2Y4ZTkwZjAyMDc1ZGY3MTI3ZjBiM2QzMDVjZC05MjIxMzI2NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:96
+时间：2023-04-06 18:17:34,533 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "LX-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:17:34,535 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:17:11 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:34,537 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:34,778 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/api/auth/login
+时间：2023-04-06 18:17:34,778 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+Content-Type:application/json;charset=UTF-8
+Content-Length:772
+时间：2023-04-06 18:17:34,779 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"username": "Q4WrisApo6JPtGVqVLkNuM1lOSBnPHu11lm/33CF90gWXOPu+eTOBv6SGbHWPuU8UG9HhjDHgwm4vGyiKlKru5mRDG/vdcN7wrB9wfHOYjLc4/xwfeYEwSPQP9wYOXL3OiTDf6E6wIyAAINED7JeWtRtWJGHtFQpq+pftVF1pP3fA5idysClF5tknZcHLPdF8rBeG1bX4E/f4yVEPrzKsK3IzdWyp6Wxji8B6p5KyBBxb3mqMZfskFZUnYX639HVQ/unk2+97PFb8a8C3kBHd0ZXKtswCrX3oRcRsBABJCYevufLmCqzqzUgH/f81ReDk4y4y3kjjX59PeppiIhW1w==", "password": "Do7ZZsa8uUtQBFILhdLlQbCKCJ4/nbhj9NsCVzm8hHzQWqEN3LY755cruFanhmsn/7ALACbrBWstSo+5BuUUydkNwbpCIowO5RSeOojTxJXUUM2l+rCfKy8/h8yy0XaK0VYFwf/h3E2dhzyNzwe63EuwbJMoJgI3RghoVAYV8KVjfEwa9HaqKoQs9xSzUrjZSECgKMg6eEzTmnh1mZLDzYWruF7Ad4ke85deyvcJYteQ0Gu8EwJQQDW87yxopYx9HXwPlMA95DUUX4V96TQ8ZK5Fa9GZ0XLdyvRQ4JtCZyGAKTl+izpEF63tn0LejFJttytHYoiKZNeEINF6FfON3g==", "verificationCode": "1", "verificationCodeKey": ""}
+时间：2023-04-06 18:17:34,779 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:17:11 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:34,779 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":{"token":"NWNhMjA2OGNiYWZhMjQ5MDAzYmZlYzRlYjM1NTVmZDZiNzIzZGY1ZDdkYmU4OGM2MzU4M2RkMGYxN2ZjZjlmNS0xNjYxMzI2NzcwODYx"},"code":200,"msg":"成功","errorMessage":null}
+时间：2023-04-06 18:17:34,779 - 日志等级: Thread-11 (process_request_thread)-process.py-日志信息：[line:247]-INFO: 开始执行自动审批任务：表单单号=[LX-202304-003] 当前节点=[项目总负责人] 当前审批人=[yao.wang] 发起人=[shouzhen.qu] 表单标题=[立项信息-测试用户-百行征信-新增一个001]
+时间：2023-04-06 18:17:34,900 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:36]-INFO: 请求路径：http://172.16.86.71:9360/process/process
+时间：2023-04-06 18:17:34,901 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:40]-INFO: 请求头信息：
+User-Agent:python-requests/2.28.2
+Accept-Encoding:gzip, deflate
+Accept:*/*
+Connection:keep-alive
+X-Content-Auth:NWNhMjA2OGNiYWZhMjQ5MDAzYmZlYzRlYjM1NTVmZDZiNzIzZGY1ZDdkYmU4OGM2MzU4M2RkMGYxN2ZjZjlmNS0xNjYxMzI2NzcwODYx
+Content-Type:application/json;charset=UTF-8
+Content-Length:96
+时间：2023-04-06 18:17:34,902 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:41]-INFO: 请求参数：
+{"formNo": "LX-202304-003", "comment": "\u7ba1\u7406\u5458\u81ea\u52a8\u5ba1\u6279\u8df3\u8fc7"}
+时间：2023-04-06 18:17:34,903 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:46]-INFO: 响应头信息：
+Server:nginx/1.16.1
+Date:Thu, 06 Apr 2023 10:17:11 GMT
+Content-Type:application/json
+Transfer-Encoding:chunked
+Connection:keep-alive
+Vary:Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Pragma:no-cache
+Expires:0
+时间：2023-04-06 18:17:34,903 - 日志等级: Thread-11 (process_request_thread)-httpUtil.py-日志信息：[line:47]-INFO: 返回结果：
+{"data":null,"code":200,"msg":"成功","errorMessage":null}

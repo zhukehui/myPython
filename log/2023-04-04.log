@@ -1,0 +1,6 @@
+时间：2023-04-04 15:52:54,744 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:117]-WARNING: warning-----------
+时间：2023-04-04 15:52:54,744 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:120]-ERROR: error----------
+时间：2023-04-04 15:52:54,744 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:123]-CRITICAL: critical-----------
+时间：2023-04-04 15:54:01,291 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:117]-WARNING: warning-----------
+时间：2023-04-04 15:54:01,292 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:120]-ERROR: error----------
+时间：2023-04-04 15:54:01,292 - 日志等级: MainThread-LoggerUtil.py-日志信息：[line:123]-CRITICAL: critical-----------

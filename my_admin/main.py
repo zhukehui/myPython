@@ -2,11 +2,15 @@ from flask import Flask
 from flask_cors import CORS
 
 from calculation.calculation import query_calculation_blue, contract_blue
+from hello.hello import hello_blue
 from process.process import login_blue, query_form_all_blue, query_process_node_by_form_no_blue, approval_blue, \
     one_key_approval_blue, view_process_img_blue, query_flow_chart_by_form_no_blue
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r"/*": {"origins": "*"}})  # 试解决跨域问题
+
+# 验证存活
+app.register_blueprint(blueprint=hello_blue)
 
 # 登录
 app.register_blueprint(blueprint=login_blue)

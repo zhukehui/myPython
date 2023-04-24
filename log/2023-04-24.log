@@ -1,0 +1,14 @@
+时间：2023-04-24 08:05:39,708 - 日志等级: Thread-13 (process_request_thread)-mysql.py-日志信息：[line:28]-INFO: sql=SELECT
+                        id,
+                     	`name`,
+                     	electric_quantity,
+                     	used_electricity,
+                     	unit_price,
+                     	amount,
+                     	date_calculation 
+                     FROM
+                     	calculation 
+                     WHERE
+                     	deleted = 0
+                     ORDER BY date_calculation DESC
+                     LIMIT 10

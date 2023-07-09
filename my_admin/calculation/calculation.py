@@ -69,12 +69,18 @@ def calculation_amount(params):
         month_calculation = dict_map[name_]
         electric_quantity_ = month_calculation - last_month_calculation["electric_quantity"]
         amount = (unit_price * electric_quantity_).quantize(Decimal('0.00000'))
+        avg_calculation_list = query_avg_calculation()
+        avg_calculations = list(filter(lambda v: v["name"] == name_, avg_calculation_list))
+        average_used_electricity = round(sum(map(lambda v: v["average_used_electricity"], avg_calculations)))
+        average_amount = round(sum(map(lambda v: v["average_amount"], avg_calculations)))
         body = {
             "name_": name_,
             "month_calculation": month_calculation,
             "electric_quantity": electric_quantity_,
             "unit_price": str(unit_price) + "元",
-            "amount": amount
+            "amount": amount,
+            "average_used_electricity": str(average_used_electricity) + "°",
+            "average_amount": str(average_amount) + "元"
         }
         values = (name_, month_calculation, electric_quantity_, unit_price, amount, month)
         insert_calculation(values)
@@ -102,6 +108,26 @@ def query_calculation_all(pageSize):
     calculation_list = db.get_data_all(sqlStr)
     db.close_mysql()
     return calculation_list
+
+
+# 查询近6个月的平均电费及用电量
+def query_avg_calculation():
+    sqlStr = f"""SELECT
+                    `name`,
+                    AVG( amount ) AS average_amount,
+                    AVG( used_electricity ) AS average_used_electricity 
+                FROM
+                    `calculation` 
+                WHERE
+                    deleted = 0 
+                    AND date_calculation > date_format( DATE_SUB( CURDATE(), INTERVAL 6 MONTH ), '%Y-%m' ) 
+                GROUP BY
+                    `name`"""
+
+    db = Mysql(mysql_info_local)
+    avg_calculation_list = db.get_data_all(sqlStr)
+    db.close_mysql()
+    return avg_calculation_list
 
 
 # 查询某月电费信息

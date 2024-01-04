@@ -3,9 +3,41 @@ import os
 import time
 
 import colorlog
+from colorama import init, Fore, Back, Style
 
+class ColorHandler(logging.StreamHandler):
+    GRAY8 = "38;5;8"
+    GRAY7 = "38;5;2"
+    ORANGE = "33"
+    RED = "31"
+    WHITE = "0"
+    PURPLE = "35"
+    BLUE = "34"
+
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            level_color_map = {
+                logging.DEBUG: self.BLUE,
+                logging.INFO: self.GRAY7,
+                logging.WARNING: self.ORANGE,
+                logging.ERROR: self.RED,
+                logging.CRITICAL: self.PURPLE
+
+            }
+
+            csi = f"{chr(27)}["  # control sequence introducer
+            color = level_color_map.get(record.levelno, self.WHITE)
+
+            self.stream.write(f"{csi}{color}m{msg}{csi}m\n")
+            self.flush()
+        except RecursionError:
+            raise
+        except Exception:
+            self.handleError(record)
 
 class LogUtil:
+
     def __init__(self, log_level=logging.DEBUG):
         # 获取logger对象
         self.log_name = '{}.log'.format(time.strftime("%Y-%m-%d", time.localtime()))
@@ -27,14 +59,15 @@ class LogUtil:
             'INFO': 'green',
             'WARNING': 'yellow',
             'ERROR': 'red',
-            'CRITICAL': 'purple',
+            'CRITICAL': 'red,bg_white'
         }
 
         console_formatter = colorlog.ColoredFormatter(fmt=file_fmt, log_colors=color_config)
         file_formatter = logging.Formatter(fmt=file_fmt)
 
         # 输出到控制台
-        console_handler = logging.StreamHandler()
+        console_handler = ColorHandler()
+        # console_handler = logging.StreamHandler()
         # 输出到文件
         file_handler = logging.FileHandler(filename=self.log_path_name, mode='a', encoding='utf-8')
 

@@ -64,6 +64,9 @@ def calculation_amount(params):
         update_calculation(month_calculation["id"])
 
     info_list = list()
+    file_path = "../sql/电费记录表初始化语句.sql"
+    # 删除文件的最后一个字符
+    del_file_last_character(file_path)
     for last_month_calculation in last_month_calculation_list:
         name_ = last_month_calculation["name"]
         month_calculation = dict_map[name_]
@@ -84,7 +87,13 @@ def calculation_amount(params):
         }
         values = (name_, month_calculation, electric_quantity_, unit_price, amount, month)
         insert_calculation(values)
+        # 追加内容至指定文件
+        open_file(file_path,
+                  """,\n('{}', {}, {}, '{}', '{}', '{}')""".format(name_, month_calculation, electric_quantity_,
+                                                                   unit_price, amount,
+                                                                   month))
         info_list.append(body)
+    open_file(file_path, ";")
     return info_list
 
 
@@ -109,6 +118,24 @@ def query_calculation_all(pageSize):
     db.close_mysql()
     return calculation_list
 
+# 删除指定文件的最后一个字符
+def del_file_last_character(file_path):
+    # 读取文件
+    with open(file_path, "r", encoding='utf-8') as file:
+        old_content = file.read()
+    # 删除文件内最后一个字符
+    old_content = old_content[:-1]
+    # 重新写入文件
+    with open(file_path, "w", encoding='utf-8') as file:
+        file.write(old_content)
+
+
+# 将内容写入指定目录文件内
+def open_file(file_path, content):
+    # with open(file_path, 'w') as f:  'w' 每次覆盖 'a' 追加
+    with open(file_path, 'a', encoding='utf-8') as f:
+        f.write(content)
+        f.close()
 
 # 查询近6个月的平均电费及用电量
 def query_avg_calculation():
